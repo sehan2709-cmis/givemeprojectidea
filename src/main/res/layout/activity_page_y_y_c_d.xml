@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".PageYYCD">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/yycd_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/yycd_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="Contents Convergence Design"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"/>
+
+        <TextView
+            android:id="@+id/yycdtell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="크리스천의 역할을 제시하고, 해결자(Problem Solver)와 같은 다중능력을 보유한 디자인 리더를 배출하는 학부"
+            android:layout_below="@+id/yycd_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/yycdtell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="\n(시각디자인전공, 제품디자인전공)"
+            android:layout_below="@+id/yycdtell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/yycdicon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/yycdtell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/cccd"/>
+
+        <LinearLayout
+            android:id="@+id/yycddis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/yycdicon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="세상을 변화시키는 크리스천 디자인 리더를 양성을 목표로 한다. 국제적인 감각을 지녔으며 문제 해결자(Problem Solver)에게 요구되는 다중능력을 보유한 리더를 배출한다.\n"
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="진로 및 전망"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="방송국, 전문디자인 회사, 기업 연구소, 뉴미디어 분야, 광고업계, 영상분야 등의 디자인과 직접 관련된 분야뿐 아니라 간접적으로 관련된 다양한 분야 등 그 수요는 점차 증가하고 있습니다."
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/yycd_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/yycddis"/>
+    </RelativeLayout>
+</ScrollView>

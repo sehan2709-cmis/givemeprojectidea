@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".moonHack">
+
+    <Button
+        android:id="@+id/mmmmtoall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="다른 학부들"/>
+
+    <Button
+        android:id="@+id/back_moon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/gocheckmmgege"
+        android:textSize="20sp"
+        android:text="인문계 학부 테스트하기"/>
+
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="한동대학교 인문계 학부들\n"
+        android:textColor="#0000FF"
+        android:textSize="25sp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tv_t"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/mmmm2"/>
+
+    <TextView
+        android:id="@+id/gookm"
+        android:layout_below="@+id/icon4"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1) 국제어문학부\n   - 국제지역학전공\n   - 영어전공"/>
+
+    <Button
+        android:id="@+id/gocheckmmggmn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gookm"
+        android:layout_marginLeft="40dp"
+        android:text="국.문."/>
+
+    <TextView
+        android:id="@+id/geong"
+        android:layout_below="@+id/gocheckmmggmn"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2) 경영경제학부\n   - 경영학전공\n   - 경제학전공\n   - GM전공"/>
+
+    <Button
+        android:id="@+id/gocheckmmgege"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/geong"
+        android:layout_marginLeft="40dp"
+        android:text="경.경."/>
+
+    <TextView
+        android:id="@+id/law"
+        android:layout_below="@+id/icon4"
+        android:layout_marginLeft="160dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3) 법학부\n   - 한국법전공\n   - U.S. and International Law 전공"/>
+
+    <Button
+        android:id="@+id/gocheckmmbubu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/law"
+        android:layout_marginLeft="200dp"
+        android:text="법학"/>
+
+    <TextView
+        android:id="@+id/samdddddddddd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gocheckmmbubu"
+        android:layout_marginLeft="160dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:text="4) 상담심리사회복지학부\n   - 상담심리학전공\n   - 사회복지학전공"/>
+
+
+    <Button
+        android:id="@+id/gocheckmmsamd"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/samdddddddddd"
+        android:layout_marginLeft="200dp"
+        android:text="상.심."/>
+</RelativeLayout>

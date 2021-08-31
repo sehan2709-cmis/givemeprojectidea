@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result4">
+
+    <Button
+        android:id="@+id/to_eeee"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="이과 학부들"/>
+
+    <TextView
+        android:id="@+id/guess4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="이과!"
+        android:textColor="#0000FF"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tell4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="당신은 관찰력이 뛰어나고 진취적인 이과인듯합니다"
+        android:layout_below="@+id/guess4"
+        android:textColor="#5D5D98"/>
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tell4"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/eeee"/>
+
+    <Button
+        android:id="@+id/btn_con4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="이어서 하기"/>
+
+</RelativeLayout>

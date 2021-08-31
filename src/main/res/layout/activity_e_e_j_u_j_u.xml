@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEJUJU">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/juju_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/juju_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Computer Science\nand Electrical Engineering"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/jujutell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="The School of CSEE will foster the faithful and Excellent Engineers who will advance the Kingdom of God with Responsible Technology."
+            android:layout_below="@+id/juju_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/jujutell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="(컴퓨터공학전공, 전자공학전공,\n컴퓨터공학심화전공, 전자공학심화전공, IT전공)"
+            android:layout_below="@+id/jujutell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/jujuicon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/jujutell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/eejuju"/>
+
+        <LinearLayout
+            android:id="@+id/jujudis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/jujuicon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="전산전자공학부는 책임 있는 과학기술로 하나님의 나라를 진척시킬 신실하고 탁월한 공학자를 양성하고자 한다.\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학부 전공구성"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="정보통신 산업, 반도체 및 컴퓨터 산업을 비롯한 정보 산업체로의 취업 혹은 계속적인 학문연구를 위하여 전산과학, 정보 통신공학과 등의 대학원에 진학\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/juju_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/jujudis"/>
+    </RelativeLayout>
+</ScrollView>

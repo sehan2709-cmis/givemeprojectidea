@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".mmmm6">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:text="(5)"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <ImageView
+        android:id="@+id/tv_mmnn6"
+        android:layout_centerHorizontal="true"
+        android:layout_width="240dp"
+        android:layout_height="290dp"
+        android:layout_marginTop="125dp"
+        android:src="@drawable/mmmmquestion"/>
+
+    <TextView
+        android:id="@+id/tv_mmnd6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_mmnn6"
+        android:textAlignment="center"
+        android:text="지그문트 프로이트\n알고 있다     vs     누구세요?"
+        android:textSize="15sp"
+        android:textColor="#424245"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_mmnd6"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_mnq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="알고있다."/>
+
+        <Button
+            android:id="@+id/btn_mmq6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="18sp"
+            android:text="누구세요?"/>
+    </LinearLayout>
+</RelativeLayout>

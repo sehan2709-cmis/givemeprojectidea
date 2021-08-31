@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yyyyHack">
+
+    <Button
+        android:id="@+id/yyyytoall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="다른 학부들"/>
+
+    <Button
+        android:id="@+id/back_yyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="7dp"
+        android:layout_below="@+id/yyyyhdis"
+        android:textSize="20sp"
+        android:text="예체능계 학부 테스트하기"/>
+
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="한동대학교 예체능계 학부들\n"
+        android:textColor="#0000FF"
+        android:textSize="25sp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/icon4"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tv_t"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yyyy2"/>
+
+    <LinearLayout
+        android:id="@+id/yyyyhdiss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_below="@+id/icon4"
+        android:orientation="horizontal">
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1) 콘텐츠융합디자인학부\n   - 시각디자인전공\n   - 제품디자인전공\n"/>
+
+    <TextView
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2) 커뮤니케이션학부\n   - 공연영상학전공\n   - 언론정보학전공\n"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/yyyyhdis"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/yyyyhdiss"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/gocheckyycd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="14sp"
+            android:text="콘.디."/>
+
+        <Button
+            android:id="@+id/gocheckyyck"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:textSize="14sp"
+            android:text="컴.케."/>
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEGONG">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/gong_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/gong_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Spatial Environment          \n        System Engineering"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/gongtell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="하나님이 창조하신 지구를 전공학문을 통하여 쾌적하고 지속 가능한 공간환경으로 개선함으로 인류와 사회에 기여하는 인재를 양성한다."
+            android:layout_below="@+id/gong_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/gongtell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="\n(건설공학전공, 도시환경공학전공)"
+            android:layout_below="@+id/gongtell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/gongicon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/gongtell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/eegong"/>
+
+        <LinearLayout
+            android:id="@+id/gongdis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gongicon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="공간영역에서 발생하는 공학 현상과 문제들을 해결하는 인재를 양성한다. 환경친화적 관점에서 공간개발을 추진하며 하나님의 창조 질서를 회복하는 기독전문인을 양성하는 것을 목표로 한다.\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="진로 및 전망"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="건축가, 도시설계자, 건축공학자, 도시계획자, 교통공학자, 환경공학자, 수공학자 (하천, 항망), 지반공학자, 구조공학자, 등 시공관련 분야\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gong_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/gongdis"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageFive">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:text="(5)"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_q5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="“LiFe”"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/tv_dis5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_q5"
+        android:textAlignment="center"
+        android:text="“LiFe”를 보았을 때 떠오르는 정의는?\n'철화 리튬'     vs     '삶/생명'"
+        android:textSize="15sp"
+        android:textColor="#424245"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_dis5"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btn_e5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="철화 리튬"/>
+
+        <Button
+            android:id="@+id/btn_m5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="18sp"
+            android:text="삶/생명"/>
+    </LinearLayout>
+</RelativeLayout>

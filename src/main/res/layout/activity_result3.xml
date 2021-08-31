@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result3">
+
+    <Button
+        android:id="@+id/to_yyyy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:textSize="18sp"
+        android:text="예체능 학부들"/>
+
+    <TextView
+        android:id="@+id/guess3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="예체능!"
+        android:textColor="#0000FF"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tell3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="당신은 매력이 넘치며 끼가 많은 예체능인듯합니다"
+        android:layout_below="@+id/guess3"
+        android:textColor="#5D5D98"/>
+
+    <ImageView
+        android:id="@+id/icon3"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tell3"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/yyyy"/>
+
+    <Button
+        android:id="@+id/btn_con3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="이어서 하기"/>
+</RelativeLayout>

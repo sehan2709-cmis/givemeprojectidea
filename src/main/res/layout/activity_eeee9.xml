@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eeee9">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:text="(8)"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_eeee9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="전문가 vs 응용"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/tv_eeed9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_below="@+id/tv_eeee9"
+        android:textAlignment="center"
+        android:text="전공에서 배운것을 나는...\n전공에 전문가가 되고 싶다.\nvs\n전공에서 배운 것을 나의 삶에 응용하고 싶다."
+        android:textSize="15sp"
+        android:textColor="#424245"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_eeed9"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_eeq9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="전문가"/>
+
+        <Button
+            android:id="@+id/btn_egq9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="18sp"
+            android:text="응용"/>
+    </LinearLayout>
+
+</RelativeLayout>

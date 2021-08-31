@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".result1">
+
+    <TextView
+        android:id="@+id/guess1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="문과? 이과?"
+        android:textColor="#0000FF"
+        android:layout_marginTop="100dp"
+        android:textSize="25sp"/>
+
+    <TextView
+        android:id="@+id/tell1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="당신은 이과보단 '문과' 에 더 가까울수도?"
+        android:layout_below="@+id/guess1"
+        android:textColor="#5D5D98"/>
+
+    <ImageView
+        android:id="@+id/icon1"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tell1"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/maybe"/>
+
+    <Button
+        android:id="@+id/btn_con1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/icon1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:text="이어서 하기"/>
+</RelativeLayout>

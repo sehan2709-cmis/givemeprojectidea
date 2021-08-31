@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eeee7">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:text="(7)"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_eeee7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="창업"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/tv_eeed7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_eeee7"
+        android:textAlignment="center"
+        android:text="나는 창업에 관심이 있다\nCEO가 되것이야     vs     저는 평범한 개미가 되겠습니다."
+        android:textSize="15sp"
+        android:textColor="#424245"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_eeed7"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_eeq7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:text="있다"/>
+
+        <Button
+            android:id="@+id/btn_egq7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="18sp"
+            android:text="없다"/>
+    </LinearLayout>
+</RelativeLayout>

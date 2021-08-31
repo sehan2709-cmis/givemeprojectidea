@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Yunghap">
+
+    <Button
+        android:id="@+id/yutoall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="10dp"
+        android:text="다른 학부들"/>
+
+    <TextView
+        android:id="@+id/tv_t"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="한동대학교 융합 학부들\n"
+        android:textColor="#0000FF"
+        android:textSize="25sp"
+        android:layout_marginTop="60dp"/>
+
+    <ImageView
+        android:id="@+id/icon5"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_below="@+id/tv_t"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/handshake"/>
+
+    <TextView
+        android:id="@+id/gookm"
+        android:layout_below="@+id/icon5"
+        android:layout_marginLeft="30dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="1) 창의융합교육원\n   - 학생설계융합전공\n   - 글로벌융합전공\n   - 글로벌한국학전공\n   - 수학통계전공"/>
+
+    <Button
+        android:id="@+id/gocheckyuce"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/gookm"
+        android:layout_marginLeft="52dp"
+        android:text="창의 융합"/>
+
+
+
+    <TextView
+        android:id="@+id/law"
+        android:layout_below="@+id/icon5"
+        android:layout_marginLeft="200dp"
+        android:textColor="#000000"
+        android:textSize="15sp"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3) AI융합교육원\n   - AI융합전공(단일 전공)"/>
+
+    <Button
+        android:id="@+id/gocheckyuai"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/law"
+        android:layout_marginLeft="230dp"
+        android:text="AI 융합"/>
+</RelativeLayout>

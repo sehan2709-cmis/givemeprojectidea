@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MMGEGE">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/gege_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/gege_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Management and Econmics"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/gegetell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="정직하고 유능한 지도자를 비전으로 삼아, 국내 및 해외의 개발 도상국의 경제정책, 기업경영, 비영리단체 경영 등의 분야에서 기독인 지도자를 배출하는 학부"
+            android:layout_below="@+id/gege_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/gegetell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="\n(경영학전공, 경제학전공, GM전공)"
+            android:layout_below="@+id/gegetell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/gegeicon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/gegetell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/gege"/>
+
+        <LinearLayout
+            android:id="@+id/gegedis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/gegeicon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="세상을 변화시키는 것을 비전으로 삼아, 인성을 갖춤 동시에 전문지식, 문제해결능력, 창의성을 가진 인재를 배출한다. 나아가 글로벌 소양을 갖추어 국내 및 해외의 개발 도상국의 경제정책, 기업경영, 비영리단체 경영 등의 분야에서 기독인 지도자를 배출한다.\n"
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="진로 및 전망"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="1) 일반 기업체와 금융계 정치\n2) 외교분야, 정부부문, 법조계, 학계, 국제관련분야 등\n3) 실무 필드에서 경영정보시스템(MIS)분야\n"
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/gege_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/gegedis"/>
+    </RelativeLayout>
+</ScrollView>

@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MMSAMD">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/samd_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/samd_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Counselling Psychology\nand Social Welfare"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/samdtell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="영성민감형 섬김의 전문가, 임상적 탁월성을 갖춘 상담과 복지의 전문가, 국제적 역량을 갖춘 봉사 전문가를 양성하는 학부"
+            android:layout_below="@+id/samd_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/samdtell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="\n(상담심리학전공, 사회복지학전공)"
+            android:layout_below="@+id/samdtell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/samdicon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/samdtell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/samd"/>
+
+        <LinearLayout
+            android:id="@+id/samddis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/samdicon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="개인의 삶의 질을 향상시킬 뿐만 아니라 사회전체의 복지 증진을 위해 헌신하고 섬길 수 있는 기독교 신앙인격과 전문 지식을 동시에 갖춘 사회봉사 전문가 양성을 목적으로 한다. \n"
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="진로 및 전망"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="사회복지사, 현장실습 수퍼바이저, 대학원, 공직기관 또는 사회복지 관련 연구기관, 교회사회사업 실천의 전문가, 등\n"
+                android:textColor="#3C3C3C"
+                android:textSize="13sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/samd_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/samddis"/>
+    </RelativeLayout>
+</ScrollView>

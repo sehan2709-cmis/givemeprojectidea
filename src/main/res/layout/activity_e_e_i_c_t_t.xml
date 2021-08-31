@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EEICTT">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/ictt_others"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="다른 학부들"/>
+
+        <TextView
+            android:id="@+id/ictt_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="Global Entrepreneurship and ICT"
+            android:textColor="#0000FF"
+            android:layout_marginTop="60dp"
+            android:textSize="25sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/ictttell1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="첨단 ICT기반 기술을 적극적으로 이해하고 창조적으로 활용하는 역량을 극대화하여, 인간과 사회를 더욱 정의롭고 풍요롭게 개척할 차세대 리더를 양성하는 학부"
+            android:layout_below="@+id/ictt_title"
+            android:textColor="#5D5D98"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="13sp"
+            android:gravity="center_horizontal" />
+
+        <TextView
+            android:id="@+id/ictttell2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:textAlignment="center"
+            android:text="\n(ICT창업전공, GE(국제적 기업가정신) 전공, ICT융합전공)"
+            android:layout_below="@+id/ictttell1"
+            android:textColor="#0000FF"
+            android:layout_marginLeft="25dp"
+            android:layout_marginRight="25dp"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"/>
+
+        <ImageView
+            android:id="@+id/ictticon"
+            android:layout_width="350dp"
+            android:layout_height="230dp"
+            android:layout_below="@+id/ictttell2"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/eeictt"/>
+
+        <LinearLayout
+            android:id="@+id/icttdis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ictticon"
+            android:layout_marginLeft="30dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="교육목표"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_marginLeft="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="50dp"
+                android:text="창업역량, 문제이해 및 해결능력, 조직 이해 능력, 팀워크, 기술 활용 능력, 유연성, 적응 능력,  ICT역량, 의사소통능력\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="학부 전공구성"
+                android:textColor="#000000"
+                android:textSize="15sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="50dp"
+                android:text="1) AI 기술소양, AI의 창조적 활용역량,\n    기술사업화 역량 등을 토대로 AI 시대를 이끌어갈 리더를 양성\n2) 기업가 정신을 바탕으로\n    사업 구상, 실현, 운영 등의 실무 비즈니스 능력을 체득함\n3) ICT융합연구 및 활용역량 함양을 통해\n    전산학적 사고와 이를 통한 창조적 문제해결 능력을 함양함\n"
+                android:textColor="#3C3C3C"
+                android:textSize="12sp"/>
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/ictt_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="다시하기"
+            android:layout_below="@+id/icttdis"/>
+    </RelativeLayout>
+</ScrollView>

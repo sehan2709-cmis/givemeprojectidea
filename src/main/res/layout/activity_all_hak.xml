@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AllHak">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/all_again"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="12dp"
+            android:textSize="18sp"
+            android:text="home"/>
+
+        <TextView
+            android:id="@+id/tv_all"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="한동대학교 학부들\n"
+            android:textColor="#0000FF"
+            android:textSize="25sp"
+            android:layout_marginTop="67.5dp"/>
+
+        <ImageView
+            android:id="@+id/icon_all"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/tv_all"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/hgu"/>
+
+        <Button
+            android:id="@+id/all_to_mmmm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/icon_all"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="인문계 학부들 보기"/>
+
+        <Button
+            android:id="@+id/all_to_eeee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/all_to_mmmm"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="자연계 학부들 보기"/>
+
+        <Button
+            android:id="@+id/all_to_yyyy"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/all_to_eeee"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="예체능계 학부들 보기"/>
+
+        <Button
+            android:id="@+id/all_to_yung"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@id/all_to_yyyy"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="융합 학부들 보기"/>
+    </RelativeLayout>
+</ScrollView>

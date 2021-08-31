@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".pageNine">
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:textColor="#0000FF"
+        android:text="(9)"
+        android:textSize="20sp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/tv_q9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="외계인"
+        android:textSize="30sp"
+        android:layout_marginTop="250dp"
+        android:textColor="#0000FF"/>
+
+    <TextView
+        android:id="@+id/tv_dis9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/tv_q9"
+        android:textAlignment="center"
+        android:text="외계인이 지구에 왔다. 내가 궁금한 것은?\n외계인들의 우주선 기술     vs     외계인들의 문화"
+        android:textSize="15sp"
+        android:textColor="#424245"
+        android:gravity="center_horizontal" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/tv_dis9"
+        android:orientation="horizontal">
+
+        <Button
+        android:id="@+id/btn_e9"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:text="기술"/>
+
+        <Button
+            android:id="@+id/btn_m9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30sp"
+            android:textSize="18sp"
+            android:text="문화"/>
+    </LinearLayout>
+</RelativeLayout>

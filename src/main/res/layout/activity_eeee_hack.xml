@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".eeeeHack">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <Button
+            android:id="@+id/eeeetoall"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="10dp"
+            android:text="다른 학부들"/>
+
+        <Button
+            android:id="@+id/back_eeee"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_below="@+id/checkbioo"
+            android:layout_marginTop="20dp"
+            android:textSize="20sp"
+            android:text="자연계 학부 테스트하기"/>
+
+        <TextView
+            android:id="@+id/tv_t"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:text="한동대학교 자연계 학부들"
+            android:textColor="#0000FF"
+            android:textSize="25sp"
+            android:layout_marginTop="60dp"/>
+
+        <ImageView
+            android:id="@+id/icon4"
+            android:layout_width="250dp"
+            android:layout_height="250dp"
+            android:layout_below="@+id/tv_t"
+            android:layout_centerHorizontal="true"
+            android:src="@drawable/eeee2"/>
+
+
+        <TextView
+            android:id="@+id/eetextgige"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_below="@id/icon4"
+            android:text="1) 기계제어공학부\n   - 기계공학전공\n   - 전자제어공학전공"/>
+
+        <Button
+            android:layout_marginLeft="50dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/checkgige"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/eetextgige"
+            android:text="기계"/>
+
+        <TextView
+            android:id="@+id/eetextgong"
+            android:layout_below="@+id/icon4"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_marginLeft="180dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2) 공간환경시스템공학부\n   - 건설공학전공\n   - 도시환경공학전공"/>
+
+        <Button
+            android:layout_marginLeft="200dp"
+            android:id="@+id/checkgong"
+            android:layout_below="@+id/eetextgong"
+            android:layout_marginTop="10dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="공.시."/>
+
+        <TextView
+            android:id="@+id/eetextjuju"
+            android:layout_below="@+id/checkgige"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3) 전산전자공학부\n   - 컴퓨터공학전공\n   - 전자공학전공\n   - 컴퓨터공학심화전공\n   - 전자공학심화전공\n   - IT전공"/>
+
+        <Button
+            android:id="@+id/checkjuju"
+            android:layout_below="@+id/eetextjuju"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="50dp"
+            android:text="전.전."/>
+
+        <TextView
+            android:id="@+id/eetextict"
+            android:layout_below="@+id/checkgong"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:text="4) ICT창업학부\n   - ICT창업전공\n   - GE(국제적 기업가정신) 전공\n   - ICT융합전공"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/checkictt"
+            android:layout_below="@+id/eetextict"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="iCT"/>
+
+        <TextView
+            android:id="@+id/eetextbio"
+            android:layout_below="@+id/checkictt"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="180dp"
+            android:layout_marginTop="20dp"
+            android:text="5) 생명과학부\n   - 생명과학전공"
+            android:textColor="#000000"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/checkbioo"
+            android:layout_below="@+id/eetextbio"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="200dp"
+            android:text="생명"/>
+    </RelativeLayout>
+</ScrollView>
